@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Calendar</title>
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <!-- Heading container with app description -->
+    <div class="heading-container">
+        <h1 class="title">2020 Mood Calendar</h1>
+        <p>Click on the mood icon and then which day you wish to highlight with that mood</p><br>
+
+        <!-- Mood icons -->
+        <span>
+            <svg class="icon delighted">
+                <use xlink:href="/img/sprite.svg#icon-laughing-face"></use>
+            </svg>
+        </span>
+        <span>
+            <svg class="icon happy">
+                <use xlink:href="/img/sprite.svg#icon-smiling-face-eyebrows"></use>
+            </svg>
+        </span>
+        <span>
+            <svg class="icon normal">
+                <use xlink:href="/img/sprite.svg#icon-neutral-face"></use>
+            </svg>
+        </span>
+        <span>
+            <svg class="icon angry">
+                <use xlink:href="/img/sprite.svg#icon-angry-face"></use>
+            </svg>
+        </span>
+        <span>
+            <svg class="icon furious">
+                <use xlink:href="/img/sprite.svg#icon-angry-face-teeth"></use>
+            </svg>
+        </span>
+    </div>
+
+    <!-- Calendar container -->
+    <div class="calendar-container">
+        
+        <!-- Individual month containers -->
+        <div class="month january">
+            <h2>January</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span></span>
+            <span></span>
+            <span class="date">1</span>
+            <span class="date">2</span>
+            <span class="date">3</span>
+            <span class="date">4</span>
+            <span class="date">5</span>
+
+            <!-- Row 3 -->
+            <span class="date">6</span>
+            <span class="date">7</span>
+            <span class="date">8</span>
+            <span class="date">9</span>
+            <span class="date">10</span>
+            <span class="date">11</span>
+            <span class="date">12</span>
+
+            <!-- Row 4 -->
+            <span class="date">13</span>
+            <span class="date">14</span>
+            <span class="date">15</span>
+            <span class="date">16</span>
+            <span class="date">17</span>
+            <span class="date">18</span>
+            <span class="date">19</span>
+
+            <!-- Row 5 -->
+            <span class="date">20</span>
+            <span class="date">21</span>
+            <span class="date">22</span>
+            <span class="date">23</span>
+            <span class="date">24</span>
+            <span class="date">25</span>
+            <span class="date">26</span>
+
+            <!-- Row 6 -->
+            <span class="date">27</span>
+            <span class="date">28</span>
+            <span class="date">29</span>
+            <span class="date">30</span>
+            <span class="date">31</span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="month february">
+            <h2>February</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="date">1</span>
+            <span class="date">2</span>
+
+            <!-- Row 3 -->
+            <span class="date">3</span>
+            <span class="date">4</span>
+            <span class="date">5</span>
+            <span class="date">6</span>
+            <span class="date">7</span>
+            <span class="date">8</span>
+            <span class="date">9</span>
+
+            <!-- Row 4 -->
+            <span class="date">10</span>
+            <span class="date">11</span>
+            <span class="date">12</span>
+            <span class="date">13</span>
+            <span class="date">14</span>
+            <span class="date">15</span>
+            <span class="date">16</span>
+
+            <!-- Row 5 -->
+            <span class="date">17</span>
+            <span class="date">18</span>
+            <span class="date">19</span>
+            <span class="date">20</span>
+            <span class="date">21</span>
+            <span class="date">22</span>
+            <span class="date">23</span>
+
+            <!-- Row 6 -->
+            <span class="date">24</span>
+            <span class="date">25</span>
+            <span class="date">26</span>
+            <span class="date">27</span>
+            <span class="date">28</span>
+            <span class="date">29</span>
+            <span></span>
+        </div>
+
+        <div class="month march">
+            <h2>March</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="date">1</span>
+
+            <!-- Row 3 -->
+            <span class="date">2</span>
+            <span class="date">3</span>
+            <span class="date">4</span>
+            <span class="date">5</span>
+            <span class="date">6</span>
+            <span class="date">7</span>
+            <span class="date">8</span>
+
+            <!-- Row 4 -->
+            <span class="date">9</span>
+            <span class="date">10</span>
+            <span class="date">11</span>
+            <span class="date">12</span>
+            <span class="date">13</span>
+            <span class="date">14</span>
+            <span class="date">15</span>
+
+            <!-- Row 5 -->
+            <span class="date">16</span>
+            <span class="date">17</span>
+            <span class="date">18</span>
+            <span class="date">19</span>
+            <span class="date">20</span>
+            <span class="date">21</span>
+            <span class="date">22</span>
+
+            <!-- Row 6 -->
+            <span class="date">23</span>
+            <span class="date">24</span>
+            <span class="date">25</span>
+            <span class="date">26</span>
+            <span class="date">27</span>
+            <span class="date">28</span>
+            <span class="date">29</span>
+
+            <!-- Row 7 -->
+            <span class="date">30</span>
+            <span class="date">31</span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="month april">
+            <h2>April</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span></span>
+            <span></span>
+            <span class="date">1</span>
+            <span class="date">2</span>
+            <span class="date">3</span>
+            <span class="date">4</span>
+            <span class="date">5</span>
+
+            <!-- Row 3 -->
+            <span class="date">6</span>
+            <span class="date">7</span>
+            <span class="date">8</span>
+            <span class="date">9</span>
+            <span class="date">10</span>
+            <span class="date">11</span>
+            <span class="date">12</span>
+
+            <!-- Row 4 -->
+            <span class="date">13</span>
+            <span class="date">14</span>
+            <span class="date">15</span>
+            <span class="date">16</span>
+            <span class="date">17</span>
+            <span class="date">18</span>
+            <span class="date">19</span>
+
+            <!-- Row 5 -->
+            <span class="date">20</span>
+            <span class="date">21</span>
+            <span class="date">22</span>
+            <span class="date">23</span>
+            <span class="date">24</span>
+            <span class="date">25</span>
+            <span class="date">26</span>
+
+            <!-- Row 6 -->
+            <span class="date">27</span>
+            <span class="date">28</span>
+            <span class="date">29</span>
+            <span class="date">30</span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <div class="month may">
+            <h2>May</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span ></span>
+            <span class="date">1</span>
+            <span class="date">2</span>
+            <span class="date">3</span>
+
+            <!-- Row 3 -->
+            <span class="date">4</span>
+            <span class="date">5</span>
+            <span class="date">6</span>
+            <span class="date">7</span>
+            <span class="date">8</span>
+            <span class="date">9</span>
+            <span class="date">10</span>
+
+            <!-- Row 4 -->
+            <span class="date">11</span>
+            <span class="date">12</span>
+            <span class="date">13</span>
+            <span class="date">14</span>
+            <span class="date">15</span>
+            <span class="date">16</span>
+            <span class="date">17</span>
+
+            <!-- Row 5 -->
+            <span class="date">18</span>
+            <span class="date">19</span>
+            <span class="date">20</span>
+            <span class="date">21</span>
+            <span class="date">22</span>
+            <span class="date">23</span>
+            <span class="date">24</span>
+
+            <!-- Row 6 -->
+            <span class="date">25</span>
+            <span class="date">26</span>
+            <span class="date">27</span>
+            <span class="date">28</span>
+            <span class="date">29</span>
+            <span class="date">30</span>
+            <span class="date">31</span>
+
+        </div>
+
+        <div class="month june">
+            <h2>June</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span class="date">1</span>
+            <span class="date">2</span>
+            <span class="date">3</span>
+            <span class="date">4</span>
+            <span class="date">5</span>
+            <span class="date">6</span>
+            <span class="date">7</span>
+
+            <!-- Row 3 -->
+            <span class="date">8</span>
+            <span class="date">9</span>
+            <span class="date">10</span>
+            <span class="date">11</span>
+            <span class="date">12</span>
+            <span class="date">13</span>
+            <span class="date">14</span>
+
+            <!-- Row 4 -->
+            <span class="date">15</span>
+            <span class="date">16</span>
+            <span class="date">17</span>
+            <span class="date">18</span>
+            <span class="date">19</span>
+            <span class="date">20</span>
+            <span class="date">21</span>
+
+            <!-- Row 5 -->
+            <span class="date">22</span>
+            <span class="date">23</span>
+            <span class="date">24</span>
+            <span class="date">25</span>
+            <span class="date">26</span>
+            <span class="date">27</span>
+            <span class="date">28</span>
+
+            <!-- Row 6 -->
+            <span class="date">29</span>
+            <span class="date">30</span>
+            <span class="date">31</span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="month july">
+            <h2>July</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span></span>
+            <span></span>
+            <span class="date">1</span>
+            <span class="date">2</span>
+            <span class="date">3</span>
+            <span class="date">4</span>
+            <span class="date">5</span>
+
+            <!-- Row 3 -->
+            <span class="date">6</span>
+            <span class="date">7</span>
+            <span class="date">8</span>
+            <span class="date">9</span>
+            <span class="date">10</span>
+            <span class="date">11</span>
+            <span class="date">12</span>
+
+            <!-- Row 4 -->
+            <span class="date">13</span>
+            <span class="date">14</span>
+            <span class="date">15</span>
+            <span class="date">16</span>
+            <span class="date">17</span>
+            <span class="date">18</span>
+            <span class="date">19</span>
+
+            <!-- Row 5 -->
+            <span class="date">20</span>
+            <span class="date">21</span>
+            <span class="date">22</span>
+            <span class="date">23</span>
+            <span class="date">24</span>
+            <span class="date">25</span>
+            <span class="date">26</span>
+
+            <!-- Row 6 -->
+            <span class="date">27</span>
+            <span class="date">28</span>
+            <span class="date">29</span>
+            <span class="date">30</span>
+            <span class="date">31</span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <div class="month august">
+            <h2>August</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="date">1</span>
+            <span class="date">2</span>
+
+            <!-- Row 3 -->
+            <span class="date">3</span>
+            <span class="date">4</span>
+            <span class="date">5</span>
+            <span class="date">6</span>
+            <span class="date">7</span>
+            <span class="date">8</span>
+            <span class="date">9</span>
+
+            <!-- Row 4 -->
+            <span class="date">10</span>
+            <span class="date">11</span>
+            <span class="date">12</span>
+            <span class="date">13</span>
+            <span class="date">14</span>
+            <span class="date">15</span>
+            <span class="date">16</span>
+
+            <!-- Row 5 -->
+            <span class="date">17</span>
+            <span class="date">18</span>
+            <span class="date">19</span>
+            <span class="date">20</span>
+            <span class="date">21</span>
+            <span class="date">22</span>
+            <span class="date">23</span>
+
+            <!-- Row 6 -->
+            <span class="date">24</span>
+            <span class="date">25</span>
+            <span class="date">26</span>
+            <span class="date">27</span>
+            <span class="date">28</span>
+            <span class="date">29</span>
+            <span class="date">30</span>
+
+            <!-- Row 7 -->
+            <span class="date">31</span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="month september">
+            <h2>September</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span ></span>
+            <span class="date">1</span>
+            <span class="date">2</span>
+            <span class="date">3</span>
+            <span class="date">4</span>
+            <span class="date">5</span>
+            <span class="date">6</span>
+
+            <!-- Row 3 -->
+            <span class="date">7</span>
+            <span class="date">8</span>
+            <span class="date">9</span>
+            <span class="date">10</span>
+            <span class="date">11</span>
+            <span class="date">12</span>
+            <span class="date">13</span>
+
+            <!-- Row 4 -->
+            <span class="date">14</span>
+            <span class="date">15</span>
+            <span class="date">16</span>
+            <span class="date">17</span>
+            <span class="date">18</span>
+            <span class="date">19</span>
+            <span class="date">20</span>
+
+            <!-- Row 5 -->
+            <span class="date">21</span>
+            <span class="date">22</span>
+            <span class="date">23</span>
+            <span class="date">24</span>
+            <span class="date">25</span>
+            <span class="date">26</span>
+            <span class="date">27</span>
+
+            <!-- Row 6 -->
+            <span class="date">28</span>
+            <span class="date">29</span>
+            <span class="date">30</span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <div class="month october">
+            <h2>October</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="date">1</span>
+            <span class="date">2</span>
+            <span class="date">3</span>
+            <span class="date">4</span>
+
+            <!-- Row 3 -->
+            <span class="date">5</span>
+            <span class="date">6</span>
+            <span class="date">7</span>
+            <span class="date">8</span>
+            <span class="date">9</span>
+            <span class="date">10</span>
+            <span class="date">11</span>
+
+            <!-- Row 4 -->
+            <span class="date">12</span>
+            <span class="date">13</span>
+            <span class="date">14</span>
+            <span class="date">15</span>
+            <span class="date">16</span>
+            <span class="date">17</span>
+            <span class="date">18</span>
+
+            <!-- Row 5 -->
+            <span class="date">19</span>
+            <span class="date">20</span>
+            <span class="date">21</span>
+            <span class="date">22</span>
+            <span class="date">23</span>
+            <span class="date">24</span>
+            <span class="date">25</span>
+
+            <!-- Row 6 -->
+            <span class="date">26</span>
+            <span class="date">27</span>
+            <span class="date">28</span>
+            <span class="date">29</span>
+            <span class="date">30</span>
+            <span class="date">31</span>
+            <span></span>
+
+        </div>
+
+        <div class="month november">
+            <h2>November</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="date">1</span>
+
+            <!-- Row 3 -->
+            <span class="date">2</span>
+            <span class="date">3</span>
+            <span class="date">4</span>
+            <span class="date">5</span>
+            <span class="date">6</span>
+            <span class="date">7</span>
+            <span class="date">8</span>
+
+            <!-- Row 4 -->
+            <span class="date">9</span>
+            <span class="date">10</span>
+            <span class="date">11</span>
+            <span class="date">12</span>
+            <span class="date">13</span>
+            <span class="date">14</span>
+            <span class="date">15</span>
+
+            <!-- Row 5 -->
+            <span class="date">16</span>
+            <span class="date">17</span>
+            <span class="date">18</span>
+            <span class="date">19</span>
+            <span class="date">20</span>
+            <span class="date">21</span>
+            <span class="date">22</span>
+
+            <!-- Row 6 -->
+            <span class="date">23</span>
+            <span class="date">24</span>
+            <span class="date">25</span>
+            <span class="date">26</span>
+            <span class="date">27</span>
+            <span class="date">28</span>
+            <span class="date">29</span>
+
+            <!-- Row 7 -->
+            <span class="date">30</span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="month december">
+            <h2>December</h2>
+            <!-- Each month consists of a 7x6 grid-->
+            <!-- Row 1 -->
+            <span class="day monday">mon</span>
+            <span class="day tuesday">tue</span>
+            <span class="day wednesday">wed</span>
+            <span class="day thursday">thur</span>
+            <span class="day friday">fri</span>
+            <span class="day saturday">sat</span>
+            <span class="day sunday">sun</span>
+
+            <!-- Row 2 -->
+            <span></span>
+            <span class="date">1</span>
+            <span class="date">2</span>
+            <span class="date">3</span>
+            <span class="date">4</span>
+            <span class="date">5</span>
+            <span class="date">6</span>
+
+            <!-- Row 3 -->
+            <span class="date">7</span>
+            <span class="date">8</span>
+            <span class="date">9</span>
+            <span class="date">10</span>
+            <span class="date">11</span>
+            <span class="date">12</span>
+            <span class="date">13</span>
+
+            <!-- Row 4 -->
+            <span class="date">14</span>
+            <span class="date">15</span>
+            <span class="date">16</span>
+            <span class="date">17</span>
+            <span class="date">18</span>
+            <span class="date">19</span>
+            <span class="date">20</span>
+
+            <!-- Row 5 -->
+            <span class="date">21</span>
+            <span class="date">22</span>
+            <span class="date">23</span>
+            <span class="date">24</span>
+            <span class="date">25</span>
+            <span class="date">26</span>
+            <span class="date">27</span>
+
+            <!-- Row 6 -->
+            <span class="date">28</span>
+            <span class="date">29</span>
+            <span class="date">30</span>
+            <span class="date">31</span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+        </div>
+
+
+    </div>
+    
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
